@@ -46,32 +46,40 @@ Si deseas correr este proyecto en tu propia máquina:
    ```bash
    git clone [https://github.com/RaulHerrera09/Web-Application.git](https://github.com/RaulHerrera09/Web-Application.git)
    cd Web-Application
+   ```
 
 2. **Crear un entorno virtual (Opcional pero recomendado):**
-
-Bash
-
+```bash
 python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
 3. **Instalar dependencias:**
-
-Bash
-
+```bash
 pip install -r requirements.txt
+```
 4. **Ejecutar la aplicación:**
-
-Bash
-
+```bash
 streamlit run app.py
+```
 
 ## 📂 Estructura del Proyecto
-
+```text
 ├── .streamlit/          # Configuración de tema (opcional)
 ├── notebooks/           # Jupyter Notebooks con el análisis exploratorio (EDA)
 ├── vehicles_us.csv      # Dataset original
 ├── app.py               # Lógica principal de la aplicación Streamlit
 ├── requirements.txt     # Librerías necesarias
 └── README.md            # Documentación del proyecto
+```
+## 🧠 Sobre el Desarrollador
+Soy estudiante de Ingeniería en Sistemas Computacionales en la Universidad Lamar (Graduación prevista para 2026), especializado en la intersección entre el Análisis de Datos y la Ingeniería de Software. Desarrollo herramientas que transforman datos crudos y complejos en inteligencia de negocios accionable.
+
+Portafolio: raulherrera09.github.io/RaulHerrera.github.io/
+
+LinkedIn: @raulherreradelgadillo
 
 
 
